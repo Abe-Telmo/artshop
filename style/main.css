@@ -27,18 +27,22 @@ body {
   line-height: 521px;
   padding: 0 20px;
 }
+
 .slick-dots li button:before {
   font-size: 32px;
   color: hsla(0, 0%, 100%, 0.5);
   opacity: 1;
 }
+
 .slick-dots li.slick-active button:before {
   color: #fff;
   opacity: 1;
 }
+
 .slick-dots {
   bottom: 20px;
 }
+
 .slick-dotted.slick-slider {
   margin-bottom: 0;
 }
@@ -371,10 +375,10 @@ body {
 
 .footer {
   background: #252223;
-  min-height: 285px;
+  min-height: 202px;
   width: 100%;
   text-align: center;
-  padding: 4em 20px 4em 20px;
+  padding: 4em 20px 1em 20px;
 }
 
 .footer__link {
@@ -383,6 +387,7 @@ body {
   display: inline-block;
   margin-bottom: 10px;
 }
+
 .footer__link:hover {
   color: #c5c5c5;
   text-decoration: none;
@@ -396,7 +401,7 @@ body {
   margin: 0;
   padding: 0.85em 2.25em 0.85em 2.25em;
   height: fit-content;
-  margin: 3em 0 2em 0;
+  margin: 2em 0 0em 0;
 }
 
 .footer__text {
@@ -493,6 +498,7 @@ body {
 }
 
 @media screen and (max-width: 464px) {
+
   .whatwedo,
   .marketplace {
     padding-left: 20px;
