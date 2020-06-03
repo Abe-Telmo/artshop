@@ -52,6 +52,7 @@ body {
   max-width: 1366px;
   height: 100%;
   margin: 0 auto;
+  
 }
 
 .header__content {
@@ -62,6 +63,18 @@ body {
   border-radius: 5px;
   width: 45%;
   box-sizing: border-box;
+  
+}
+
+.header__content1 {
+  background-color: rgba(90, 88, 89, 0.8);
+  display: inline-block;
+  padding: 20px;
+  height: fit-content;
+  border-radius: 5px;
+  width: 45%;
+  box-sizing: border-box;
+  float: left;
 }
 
 .header__text {
