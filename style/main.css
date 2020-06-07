@@ -52,7 +52,7 @@ body {
   max-width: 1366px;
   height: 100%;
   margin: 0 auto;
-  
+
 }
 
 .header__content {
@@ -63,7 +63,7 @@ body {
   border-radius: 5px;
   width: 45%;
   box-sizing: border-box;
-  
+
 }
 
 .header__content1 {
@@ -436,12 +436,12 @@ body {
   margin: 0 0 0 1em;
 }
 
-@media screen and (min-width: 1300px) {
+/* @media screen and (min-width: 1300px) {
   .header {
     height: 721px;
     line-height: 721px;
   }
-}
+} */
 
 @media screen and (max-width: 991px) {
   .marketplace__individual-icon {
